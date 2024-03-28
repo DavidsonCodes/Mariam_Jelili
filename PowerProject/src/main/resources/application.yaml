@@ -1,0 +1,8 @@
+server:
+  port: 1111
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/power_user
+    username: root
+    password: Mariamtinu96

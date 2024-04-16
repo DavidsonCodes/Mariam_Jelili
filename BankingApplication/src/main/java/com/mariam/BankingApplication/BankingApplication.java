@@ -1,13 +1,13 @@
-package com.mariam.PowerProject;
+package com.mariam.BankingApplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PowerProjectApplication {
+public class BankingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PowerProjectApplication.class, args);
+		SpringApplication.run(BankingApplication.class, args);
 	}
 
 }

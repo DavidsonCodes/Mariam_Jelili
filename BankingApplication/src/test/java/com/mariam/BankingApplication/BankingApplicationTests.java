@@ -1,10 +1,10 @@
-package com.mariam.PowerProject;
+package com.mariam.BankingApplication;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PowerProjectApplicationTests {
+class BankingApplicationTests {
 
 	@Test
 	void contextLoads() {

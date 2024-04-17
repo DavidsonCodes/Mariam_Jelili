@@ -20,19 +20,19 @@ public class AccountUserController {
     @GetMapping("/allUser")
     public ResponseEntity<Iterable<AccountUser>> getAllUser() {return accountUserService.getAllUser();}
 
-    @GetMapping("/single/{id}")
+    @GetMapping("/user/{id}")
     public ResponseEntity<AccountUser> getUserById(@PathVariable int id) {return accountUserService.getUserById(id);}
 
-    @GetMapping("/search")
+    @GetMapping("/user")
     public ResponseEntity<AccountUser> getByUsername(@RequestParam String name) {return accountUserService.getByUsername(name);}
 
-    @PostMapping("/single")
+    @PostMapping("/user")
     public ResponseEntity<AccountUser> addNewUser(@RequestBody AccountUser accountUser) {return accountUserService.addNewUser(accountUser);}
 
-    @PutMapping("/single/{id}")
+    @PutMapping("/user/{id}")
     public ResponseEntity<AccountUser> updateUser(@PathVariable int id, @RequestBody AccountUser accountUser) {return accountUserService.updateUser(id, accountUser);}
 
-    @DeleteMapping("/single/{id}")
+    @DeleteMapping("/user/{id}")
     public ResponseEntity<AccountUser> deleteUser(@PathVariable int id) {return accountUserService.deleteUser(id);}
 
     @GetMapping("/resource/{id}")
